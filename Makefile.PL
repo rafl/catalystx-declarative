@@ -30,7 +30,7 @@ requires        'MooseX::AttributeHelpers',         '0.16';
 requires        'MooseX::Declare',                  '0.24';
 requires        'MooseX::MethodAttributes',         '0.15';
 requires        'MooseX::Types',                    '0.16';
-requires        'MooseX::Method::Signatures',       '0.16';
+requires        'MooseX::Method::Signatures',       '0.20';
 requires        'TryCatch',                         '1.001001';
 requires        'FindBin';
 

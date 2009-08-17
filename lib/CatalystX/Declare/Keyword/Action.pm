@@ -289,7 +289,7 @@ class CatalystX::Declare::Keyword::Action
     }
 
     method _count_positional_arguments (Object $method) {
-        my $signature = $method->_parsed_signature;
+        my $signature = $method->parsed_signature;
 
         if ($signature->has_positional_params) {
             my $count = @{ scalar($signature->positional_params) };
